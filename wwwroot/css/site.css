@@ -1,0 +1,179 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.home-background {
+    background-image: url(/images/HomePgBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: goldenrod;
+}
+
+.custom-card {
+    background-color: rgba(255, 255, 255, 0.1); /* transparent white */
+    backdrop-filter: blur(6px); /* optional: frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    max-width: 300px;
+    margin: auto;
+    color: #fff;
+}
+
+    .custom-card .card-img-top {
+        height: 180px;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .custom-card .card-title {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .custom-card .btn {
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .hover-zoom {
+    transition: transform 0.3s ease;
+    
+    }
+
+    .hover-zoom:hover {
+    transform: scale(1.03);
+    }
+
+    .comic-section {
+    background-color: #dad271;
+    padding: 2rem;
+    position: relative;
+    
+    
+    }
+
+    .comic-heading {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    
+    }
+
+    .comic-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 0.5rem;
+    
+    transition: transform 0.3s ease;
+    
+    }
+
+    .left-tilt {
+    transform: rotate(-8deg);
+    
+    }
+
+    .right-tilt {
+    transform: rotate(8deg);
+    
+    }
+
+    .comic-img:hover {
+    transform: scale(1.05);
+    
+    }
+
+    .comic-label {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px white;
+    
+    }
+
+    .grounded {
+    color: #E03A22;
+    font-size: 1.3rem;
+    
+    }
+
+    .comic-section {
+    background-color: #dad271; 
+    padding: 2rem;
+    position: relative;
+    
+    }
+
+    .comic-heading {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    
+    }
+
+    .comic-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 0.5rem;
+    
+    transition: transform 0.3s ease;
+    
+    }
+
+    .left-tilt {
+    transform: rotate(-8deg);
+    
+    }
+
+    .right-tilt {
+    transform: rotate(8deg);
+    
+    }
+
+    .comic-img:hover {
+    transform: scale(1.05);
+    
+    }
+
+    .comic-label {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px white;
+    
+    }
+
+    .grounded {
+    color: #E03A22;
+    font-size: 1.3rem;
+    
+    }

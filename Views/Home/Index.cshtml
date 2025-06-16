@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewData["BodyClass"] = "home-background";
+}
+
+<div class="container text-center mt-4">
+    <h1>Hey it's me! The Universe Book!</h1>
+    <h2>Also Known as TUB!</h2>
+
+    <div class="comic-section text-center">
+        <h3 class="comic-heading">Current Comics being worked on…..</h3>
+
+        <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <a asp-controller="Home" asp-action="The_Packs" class="comic-link">
+                    <img src="~/images/ThePacks.png" alt="The Packs Comic" class="comic-img left-tilt" />
+                    <div class="comic-label">THE PACKS</div>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <a asp-controller="Home" asp-action="Grounded" class="comic-link">
+                    <img src="~/images/Grounded.png" alt="Grounded Comic" class="comic-img right-tilt" />
+                    <div class="comic-label grounded">GROUNDED</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--
+    <div class="row justify-content-center mt-4">
+         Image Button 1 
+        <div class="col-md-5 mb-4">
+            <a asp-controller="Home" asp-action="The_Packs">
+                <img src="/images/ThePacks.png" class="img-fluid rounded shadow hover-zoom" alt="Click to learn more?" />
+            </a>
+            <a asp-controller="Home" asp-action="The_Packs" class="btn btn-outline-light mt-2">THE PACKS</a>
+        </div>
+
+         Image Button 2 
+        <div class="col-md-5 mb-4">
+            <a asp-controller="Home" asp-action="Grounded">
+                <img src="/images/Grounded.png" class="img-fluid rounded shadow hover-zoom" alt="Click to learn more?" />
+            </a>
+            <a asp-controller="Home" asp-action="Grounded" class="btn btn-outline-light mt-2">GROUNDED</a>
+        -->
+                <!-- card 1
+                    <div class="col-md-4 mb-4">
+                    <div class="card custom-card shadow-lg">
+                        <img src="/images/ThePacks.png" class="card-img" alt="The Packs Image" />
+                        <div class="card-body">
+                            <a asp-controller="Home" asp-action="The_Packs" class="btn btn-outline-light">THE PACKS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>-->
+                
+        <!-- card 2 
+        <div class="col-md-4 mb-4">
+            <div class="card custom-card shadow-lg">
+                <img src="/images/Grounded.png" class="card-img-top" alt="Grounded Image" />
+                <div class="card-body">
+                    <a asp-controller="Home" asp-action="Grounded" class="btn btn-outline-light">GROUNDED</a>
+                                </div>-->
+               
+
+        
+
+
