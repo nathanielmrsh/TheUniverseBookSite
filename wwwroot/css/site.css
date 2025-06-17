@@ -27,6 +27,14 @@ body {
     margin-bottom: 60px;
 }
 
+.about-me-background {
+    background-image: url(/images/AboutMeBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: goldenrod;
+}
+
 .home-background {
     background-image: url(/images/HomePgBackground.png);
     background-size: cover;
@@ -36,19 +44,22 @@ body {
 }
 
 .custom-card {
-    background-color: rgba(255, 255, 255, 0.1); /* transparent white */
+    background-color: rgba(255, 255, 255, 0.5); /* transparent white */
     backdrop-filter: blur(6px); /* optional: frosted glass effect */
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 1rem;
-    max-width: 300px;
-    margin: auto;
+    padding: 2rem;
+    position: center;
+    margin: 2rem;
+    margin-left: 9.5rem;
+    max-width: 1000px;
+    width: 150%;
     color: #fff;
 }
 
-    .custom-card .card-img-top {
-        height: 180px;
-        object-fit: cover;
-        border-top-left-radius: 1rem;
+    .custom-card .card-img-right {
+        height: 1000px;
+        border-top-right-radius: 1rem;
         border-top-right-radius: 1rem;
     }
 
