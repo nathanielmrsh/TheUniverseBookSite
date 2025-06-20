@@ -35,6 +35,10 @@ body {
     color: goldenrod;
 }
 
+about-font {
+    font-size: larger;
+}
+
 .home-background {
     background-image: url(/images/HomePgBackground.png);
     background-size: cover;
@@ -133,6 +137,19 @@ body {
 
     }
 
+.section-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
     .comic-heading {
     text-align: left;
     font-size: 1.5rem;

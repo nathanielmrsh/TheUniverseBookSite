@@ -1,1 +1,45 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Take a Look at My Portfolio!";
+    ViewData["BodyClass"] = "about-me-background";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<section>
+    <div class="row align-items-center">
+        <!-- Text Column -->
+        <div class="col-md-6">
+            <h1>StoryBoarding</h1>
+            <h3>Storyboarding Services</h3>
+            <p>
+                Storyboarding is a core part of what we do here at TheUniverseBook: Studios.
+                We specialize in turning scripts, books, and rough ideas into clear, engaging visual plans, 
+                regardless of whether you're creating an animation, comic, or another visual project. 
+                From animatic-ready storyboards to comic page layouts, we help bring your story to life, beat by beat.
+                Looking for a collaborator to help shape your project visually? Let's work together!
+            </p>
+        </div>
+        <!-- Carousel Column -->
+        <div class="col-md-6">
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/portfolio1.jpg" class="d-block w-100" alt="Portfolio Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/portfolio2.jpg" class="d-block w-100" alt="Portfolio Image 2">
+                    </div>
+                    <!-- Add more carousel items as needed -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
