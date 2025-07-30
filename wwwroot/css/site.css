@@ -136,8 +136,8 @@ about-font {
 }
 
 section {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
     background: rgba(255,255,255,0.3);
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -190,7 +190,7 @@ section {
 .carousel-control-prev,
 .carousel-control-next {
     top: auto;
-    bottom: -120px; /* Distance from the bottom */
+    bottom: 0px; /* Distance from the bottom */
     width: 50px; /* Adjust width if needed */
     height: 50px; /* Adjust height if needed */
     opacity: 0.8; /* Optional: make them more visible */
