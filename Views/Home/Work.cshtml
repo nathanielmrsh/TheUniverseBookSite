@@ -1,16 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Take a Look at My Portfolio!";
-    ViewData["BodyClass"] = "about-me-background";
+    ViewData["BodyClass"] = "work-background";
 }
 
 <h1 class="text-center">@ViewData["Title"]</h1>
 
-<section>
+<section class="custom-card-work">
     <div class="row align-items-center">
         <!-- Text Column -->
-        <div class="col-md-6">
+        <div class="col-md-6 text-black card-text">
             <h1>StoryBoarding</h1>
-            <h3>Storyboarding Services</h3>
             <p>
                 Storyboarding is a core part of what we do here at TheUniverseBook: Studios.
                 We specialize in turning scripts, books, and rough ideas into clear, engaging visual plans, 
@@ -21,36 +20,36 @@
         </div>
         <!-- Storyboarding Carousel Column -->
         <div class="col-md-6">
-            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="storyboardCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/StoryboardOne.jpg" class="d-block w-100" alt="Portfolio Image 1">
+                        <img src="/images/StoryboardOne.jpg" class="d-block w-100" alt="Storyboards Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardThree.jpg" class="d-block w-100" alt="Portfolio Image 3">
+                        <img src="/images/StoryboardThree.jpg" class="d-block w-100" alt="Storyboards Image 3">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardFour.jpg" class="d-block w-100" alt="Portfolio Image 4">
+                        <img src="/images/StoryboardFour.jpg" class="d-block w-100" alt="Storyboards Image 4">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardFive.jpg" class="d-block w-100" alt="Portfolio Image 5">
+                        <img src="/images/StoryboardFive.jpg" class="d-block w-100" alt="Storyboards Image 5">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardSix.jpg" class="d-block w-100" alt="Portfolio Image 6">
+                        <img src="/images/StoryboardSix.jpg" class="d-block w-100" alt="Storyboards Image 6">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardSeven.jpg" class="d-block w-100" alt="Portfolio Image 7">
+                        <img src="/images/StoryboardSeven.jpg" class="d-block w-100" alt="Storyboards Image 7">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/StoryboardEight.jpg" class="d-block w-100" alt="Portfolio Image 8">
+                        <img src="/images/StoryboardEight.jpg" class="d-block w-100" alt="Storyboards Image 8">
                     </div>
                     <!-- Add more carousel items as needed -->
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev bg-black bg-opacity-25" type="button" data-bs-target="#storyboardCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <button class="carousel-control-next bg-black bg-opacity-25" type="button" data-bs-target="#storyboardCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -59,10 +58,10 @@
     </div>
 </section>
 
-<section>
+<section class="custom-card-work">
     <div class="row align-items-center">
         <!-- Text Column -->
-        <div class="col-md-6">
+        <div class="col-md-6 text-black">
             <h1>Comic Books</h1>
             <h1>Layout & Designs</h1>
             <p>
@@ -74,21 +73,29 @@
         </div>
         <!-- Comic Books Carousel Column -->
         <div class="col-md-6">
-            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="comicBooksCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/portfolio1.jpg" class="d-block w-100" alt="Portfolio Image 1">
+                        <img src="/images/ComicOne.jpg" class="d-block w-100" alt="Comic Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/portfolio2.jpg" class="d-block w-100" alt="Portfolio Image 2">
+                        <img src="/images/ComicTwo.jpg" class="d-block w-100" alt="Comic Image 2">
                     </div>
-                    <!-- Add more carousel items as needed -->
+                    <div class="carousel-item">
+                        <img src="/images/ComicThree.jpg" class="d-block w-100" alt="Comic Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/ComicFour.jpg" class="d-block w-100" alt="Comic Image 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/ComicFive.jpg" class="d-block w-100" alt="Comic Image 5">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev bg-black bg-opacity-25" type="button" data-bs-target="#comicBooksCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <button class="carousel-control-next bg-black bg-opacity-25" type="button" data-bs-target="#comicBooksCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -97,12 +104,12 @@
     </div>
 </section>
 
-<section>
-    <div class="row align-items-center">
+<section class="custom-card-work">
+    <div class="row align-items-stretch">
         <div class="col-md-7">
-            <h1>Storywriting & Animatics</h1>
+            <h1 class="text-black">Storywriting & Animatics</h1>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 text-black">
             <p>
                 I've been writing and creating my own stories since I was 14, back in 2015—or at least that's the earliest 
                 work I can find! Honestly, I believe storytelling has been a part of me for as long as I can remember. 
@@ -118,44 +125,44 @@
     <!-- StoryWriting and Animatics Grid view starts here -->
     <div class="row mt-4">
         <div class="col-md-4 mb-4">
-            <div class="h-100">
-                <img src="/images/grid1.jpg" class="card-img-top" alt="Grid Image 1">
+            <div class="h-100" >
+                <img src="/images/Animatic1.png" class="card-img-top" alt="Animatic Image 1">
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="h-100">
-                <img src="/images/grid2.jpg" class="card-img-top" alt="Grid Image 2">
+                <img src="/images/Animatic2.png" class="card-img-top" alt="Grid Animatic 2">
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="h-100">
-                <img src="/images/grid3.jpg" class="card-img-top" alt="Grid Image 3">
+                <img src="/images/Animatic3.png" class="card-img-top" alt="Grid Animatic 3">
             </div>
         </div>
     </div>
     <div class="row mt-4">
         <div class="col-md-4 mb-4">
             <div class="h-100">
-                <img src="/images/grid1.jpg" class="card-img-top" alt="Grid Image 1">
+                <img src="/images/Animatic4.png" class="card-img-top" alt="Animatic 4">
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="h-100">
-                <img src="/images/grid2.jpg" class="card-img-top" alt="Grid Image 2">
+                <img src="/images/Animatic5.png" class="card-img-top" alt="Animatic 5">
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="h-100">
-                <img src="/images/grid3.jpg" class="card-img-top" alt="Grid Image 3">
+                <img src="/images/Animatic6.png" class="card-img-top" alt="Animatic 6">
             </div>
         </div>
     </div>
 </section>
-<section>
+<section class="custom-card-work">
     <div class="row align-items-center">
         <!-- Text Column -->
-        <div class="col-md-6">
-            <h1>Script Writing</h1>
+        <div class="col-md-6 text-black">
+            <h1>Script Formatting</h1>
             <p>
                 Every great story begins with a strong foundation—and that starts with the script. 
                 We're not just familiar with scriptwriting; it's a core part of our creative process. 
@@ -164,23 +171,31 @@
                 Whether you're starting with a rough idea or a full outline, we can help shape, refine, and polish it into a script.
             </p>
         </div>
-        <!-- Script WritingCarousel Column -->
+        <!-- Script Writing Carousel Column -->
         <div class="col-md-6">
-            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="scriptCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/portfolio1.jpg" class="d-block w-100" alt="Portfolio Image 1">
+                        <img src="/images/Script1.png" class="d-block w-100" alt="Scriptwriting Image 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/portfolio2.jpg" class="d-block w-100" alt="Portfolio Image 2">
+                        <img src="/images/Script2.png" class="d-block w-100" alt="Scriptwriting Image 2">
                     </div>
-                    <!-- Add more carousel items as needed -->
+                    <div class="carousel-item">
+                        <img src="/images/Script3.png" class="d-block w-100" alt="Scriptwriting Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/Script4.png" class="d-block w-100" alt="Scriptwriting Image 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/Script5.png" class="d-block w-100" alt="Scriptwriting Image 5">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <button class="carousel-control-prev bg-black bg-opacity-25" type="button" data-bs-target="#scriptCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <button class="carousel-control-next bg-black bg-opacity-25" type="button" data-bs-target="#scriptCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -188,12 +203,12 @@
         </div>
     </div>
 </section>
-<section>
-<div class="row align-items-center">
-    <div class="col-md-7">
+
+<section class="custom-card-work">
+<div class="row align-items-stretch text-black">
+    <div class="col-md-6 flex-md-column justify-content-center">
         <h1>Team Management</h1>
     </div>
-    <div class="col-md-7">
         <p>
                 I have led multiple animation teams of 10 to 30 members on projects such as 
                 THE PACKS, Let’s Try Again, and GROUNDED Episodes 1 and 2. 
@@ -206,41 +221,14 @@
                 Throughout each project, I maintained clear communication and team coordination to keep everything on track 
                 and aligned with the creative vision.
         </p>
-    </div>
 </div>
 <!-- Team management Grid view starts here -->
-<div class="row mt-4">
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid1.jpg" class="card-img-top" alt="Grid Image 1">
+        <div class="row h-100">
+            <div class="col-6 mb-4 d-flex align-items-center h-50">
+                <img src="/images/TeamMan2.png" class="team-management-img flex-fill" alt="Team Management Image 1" />
+            </div>
+            <div class="col-6 d-flex align-items-center h-50">
+                <img src="/images/TeamMan1.png" class="team-management-img flex-fill" alt="Team Management Image 2" />
+            </div>
         </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid2.jpg" class="card-img-top" alt="Grid Image 2">
-        </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid3.jpg" class="card-img-top" alt="Grid Image 3">
-        </div>
-    </div>
-</div>
-<div class="row mt-4">
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid1.jpg" class="card-img-top" alt="Grid Image 1">
-        </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid2.jpg" class="card-img-top" alt="Grid Image 2">
-        </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="h-100">
-            <img src="/images/grid3.jpg" class="card-img-top" alt="Grid Image 3">
-        </div>
-    </div>
-</div>
 </section>
