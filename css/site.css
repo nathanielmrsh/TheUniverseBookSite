@@ -1,0 +1,371 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.fan-font {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.site-banner img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.about-me-background {
+    background-image: url(/images/AboutMeBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: goldenrod;
+}
+
+.text-card {
+    background-color: goldenrod;
+}
+.work-background {
+    background-image: url(/images/WorkPageBackground.png);
+    background-size: 150rem;
+    background-repeat: repeat;
+    background-position: center center;
+    color: goldenrod;
+    
+}
+
+.The-Packs-background .navbar .nav-link,
+.The-Packs-background .navbar .navbar-brand,
+.Grounded-background .navbar .nav-link,
+.Grounded-background .navbar .navbar-brand {
+    color: #fff !important; /*Colour of Navbar on Packs and Grounded Pages*/
+}
+
+.thumbnail-buttons-container {
+    position: relative;
+    display: inline-block;
+}
+
+.thumbnail-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.The-Packs-background {
+    background-image: url(/images/ThePacksBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.Grounded-background {
+    background-image: url(/images/GroundedBackground3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+about-font {
+    font-size: larger;
+}
+
+.home-background {
+    background-image: url(/images/HomePgBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: goldenrod;
+}
+
+.custom-privacy-card {
+    background-color: rgba(255, 255, 255, 0.5); /* transparent white */
+    backdrop-filter: blur(15px); /*frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    padding: 2rem;
+    position: center;
+    margin: 2rem;
+    margin-left: 6.5rem;
+    max-width: 1200px;
+    width: 150%;
+    color: goldenrod;
+}
+
+.custom-card {
+    background-color: rgba(255, 255, 255, 0.5); /* transparent white */
+    backdrop-filter: blur(15px); /*frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    padding: 2rem;
+    position: center;
+    margin: 2rem;
+    margin-left: 9.5rem;
+    max-width: 1200px;
+    width: 150%;
+    color: goldenrod;
+}
+
+.custom-card-work{
+    background-color: rgba(255, 255, 255, 0.5); /* transparent white */
+    backdrop-filter: blur(15px); /*frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    padding: 2rem;
+    position: center;
+    margin: 2rem;
+    margin-left: 5.5rem;
+    max-width: 1200px;
+    width: 150%;
+    color: goldenrod;
+}
+
+    .custom-card .card-img-right {
+        height: 1000px;
+        border-top-right-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .custom-card .card-title {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .custom-card .btn {
+        font-weight: bold;
+        width: 100%;
+    }
+
+.hover-zoom {
+    transition: transform 0.3s ease;
+}
+
+    .hover-zoom:hover {
+        transform: scale(1.03);
+    }
+
+.comic-heading {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.left-tilt {
+    transform: rotate(-8deg);
+}
+
+.right-tilt {
+    transform: rotate(8deg);
+}
+
+.comic-img:hover {
+    transform: scale(1.05);
+}
+
+.comic-label {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px white;
+}
+
+.grounded {
+    color: #E03A22;
+    font-size: 1.3rem;
+}
+
+.comic-section {
+    background-color: rgba(218, 210, 113, 0.5);
+    padding: 2rem;
+    position: relative;
+    max-width: 3000px;
+    width: auto;
+    height: auto;
+    margin: 2rem auto;
+}
+
+.section-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+section {
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+Comic-books-format {
+    padding: 3rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.comic-heading {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.comic-img {
+    width: 150%;
+    max-width: 2000px;
+    max-height: 2000px;
+    height: 100%;
+    border-radius: 1rem;
+    margin-left: -6rem;
+    transition: transform 0.3s ease;
+}
+
+.The-Grounded-Thumbnail {
+    width: 150%;
+    max-width: 650px;
+    max-height: 2000px;
+    height: 100%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.move-up-please {
+    margin-top: -8rem;
+}
+
+.The-Packs-Thumbnail {
+    width: 150%;
+    max-width: 650px;
+    max-height: 2000px;
+    height: 100%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: -7rem;
+    transition: transform 0.3s ease;
+}
+
+ .The-Packs-img {
+    width: 150%;
+    max-width: 2000px;
+    max-height: 2000px;
+    height: 100%;
+    border-radius: 1rem;
+    margin-left: -6rem;
+    transition: transform 0.3s ease;
+}
+
+.left-tilt {
+    transform: rotate(-8deg);
+}
+
+.right-tilt {
+    transform: rotate(8deg);
+}
+
+.comic-img:hover {
+    transform: scale(1.05);
+}
+
+.comic-label {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px white;
+}
+
+.grounded {
+    color: #E03A22;
+    font-size: 1.3rem;
+}
+
+/* Move carousel controls lower and closer to the bottom */
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: 0px; /* Distance from the bottom */
+    width: 50px; /* Adjust width if needed */
+    height: 50px; /* Adjust height if needed */
+    opacity: 0.8; /* Optional: make them more visible */
+}
+
+/* Move controls closer together horizontally */
+.carousel-control-prev {
+    left: 30%;
+}
+
+.carousel-control-next {
+    right: 30%;
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    height: 340px;
+    max-height: 400px;
+}
+
+.carousel-item img,
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.team-management-img {
+    width:  105%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1rem;
+}
+
